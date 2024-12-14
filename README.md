@@ -1,5 +1,5 @@
 Zeitgeist is a CLI tool that can be used for article filtering and summarisation.
-for an Input string, it return a JSON object containing following information: {summary, relatedArticles, keywords, ImageURLs, ArticleDescriptions}
+for an Input string, it returns a JSON object containing following information: {summary, relatedArticles, keywords, ImageURLs, ArticleDescriptions}
 
 tools, libraries and APIs used:
 1. Hugging Face Transformers Library (for text summarisation)
