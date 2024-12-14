@@ -8,7 +8,7 @@ from getImages import getImagesWithDesc
 
 def json_output(query: str, summary:str, relatedArticles:list, keywords:list, imageLinks:list, descriptions:list):
     '''
-    to create a JSON output object:
+    to create a JSON output object
     '''
     output = {
         "input": query,
