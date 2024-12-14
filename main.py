@@ -6,8 +6,10 @@ from math import floor
 from further import furtherSearch
 from getImages import getImagesWithDesc
 
-# to create a JSON output object:
 def json_output(query: str, summary:str, relatedArticles:list, keywords:list, imageLinks:list, descriptions:list):
+    '''
+    to create a JSON output object:
+    '''
     output = {
         "input": query,
         "summary": summary,
