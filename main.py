@@ -39,7 +39,6 @@ def main():
     keywords = furtherSearch(text)
     images, articleDescriptions = getImagesWithDesc(query)
 
-    # the JSON output object here:
     output = json_output(query, summary, article_urls, keywords=keywords, imageLinks=images, descriptions=articleDescriptions)
     print(output)
     return output
