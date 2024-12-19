@@ -19,7 +19,6 @@ def scrape(links):
         else:
             cleaned_text += element.text + ' '
  
-    # Lowercase, remove punctuation, convert to Unicode
     cleaned_text = cleaned_text.lower()
     cleaned_text = cleaned_text.encode('ascii', 'ignore').decode('unicode-escape')
 
